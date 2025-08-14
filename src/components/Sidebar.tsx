@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 import { useAppStore } from '@/store/AppStore';
 
 const navigation = [
-  { name: 'Dashboard', href: '/dashboard', icon: Home },
+  // { name: 'Dashboard', href: '/dashboard', icon: Home },
   { name: 'Workshop Setup', href: '/workshop-setup', icon: Calendar },
   { name: 'Customer List', href: '/customers', icon: Users },
 ];

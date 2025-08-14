@@ -16,7 +16,7 @@ export default function Login() {
 
   // Redirect if already authenticated
   if (state.isAuthenticated) {
-    return <Navigate to="/dashboard" replace />;
+    return <Navigate to="/customers" replace />;
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
